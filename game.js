@@ -8,7 +8,7 @@ var started = false;
 // a new variable called level and start at level 0.
 var level = 0;
 
-$(document).keypress(function (event) {
+$('.start-btn').click(function (event) {
     if (!started) {
 
         $("#level-title").text("Level : " + level);
@@ -54,7 +54,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over");
         }, 200);
 
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over! Click start to play again! Your score is : " + (level-1));
         // calling startOver() if the user gets the sequence wrong.
         startOver();
     }

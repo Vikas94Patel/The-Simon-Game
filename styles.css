@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  2% 5%;
   color: #FEF2BF;
 }
 
@@ -16,6 +16,25 @@ body {
   margin: auto;
 
 }
+
+.start-btn {
+  font-family: 'Press Start 2P', cursive;
+  color: #011F3F;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 2%;
+  padding: 1%;
+  display: inline-block;
+  background-color: lightslategray ;
+  border: 2px solid lightslategray;
+  border-radius: 5%;
+}
+
+.start-btn:hover {
+  background-color: rgb(89, 124, 158) ;
+  border: 2px solid rgb(41, 106, 170);
+}
+
 
 .btn {
   margin: 25px;
