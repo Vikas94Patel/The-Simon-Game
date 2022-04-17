@@ -72,7 +72,7 @@ function nextSequence() {
     gamePattern.push(randomChosenColour);
 
     // Flashing the choosen color
-    $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+    $("#" + randomChosenColour).fadeIn(200).fadeOut(200).fadeIn(100);
     // playing sound while flashing
     playSound(randomChosenColour);
 }
@@ -87,7 +87,7 @@ function animatePress(currentColour){
     $("#" + currentColour).addClass("pressed");
     setTimeout(function(){
         $("#" + currentColour).removeClass("pressed");
-    }, 100);
+    }, 200);
 }
 
 // a new function to startOver.
