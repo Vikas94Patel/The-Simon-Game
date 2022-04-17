@@ -83,8 +83,9 @@ body {
   .container {
     display: block;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
   }
+
   .game-heading {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
@@ -93,10 +94,10 @@ body {
   }
 
   .btn {
-    margin: 5% 3%;
+    margin: 5% 2%;
     display: inline-block;
-    height: 150px;
-    width: 150px;
+    height: 135px;
+    width: 135px;
     border: 10px solid black;
     border-radius: 20%;
   }
