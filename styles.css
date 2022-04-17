@@ -87,33 +87,33 @@ body {
   }
   .game-heading {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin:  5% 5%;
+    font-size: 1.5rem;
+    margin:  5% 5% 2% 5%;
     color: rgb(194, 76, 115);
   }
 
   .btn {
-    margin: 10% 3%;
+    margin: 5% 3%;
     display: inline-block;
-    height: 220px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     border: 10px solid black;
     border-radius: 20%;
   }
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
-    margin:  5% 5%;
+    font-size: 1rem;
+    margin:  2% 5%;
     color: #FEF2BF;
   }
 
   .start-btn {
     font-family: 'Press Start 2P', cursive;
     color: #011F3F;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
-    margin: 5%;
+    margin: 2%;
     padding: 1%;
     display: inline-block;
     background-color: lightslategray ;
